@@ -6,7 +6,7 @@ O objetivo é aplicar na prática os conceitos de redes de computadores, como so
 
 ---
 
-## 🧠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Linguagem: **C# (.NET 6)**
 - Comunicação: **UDP (Sockets)**
@@ -15,33 +15,37 @@ O objetivo é aplicar na prática os conceitos de redes de computadores, como so
 
 ---
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
-### ✅ Pré-requisitos
+### Pré-requisitos
 
 - [.NET SDK 6.0+](https://dotnet.microsoft.com/en-us/download)
 
-### 🖥️ 1. Clone o repositório
+### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/blackjack-redes.git
-cd blackjack-redes
+git clone https://github.com/NayaraFJ/redes-blackjack.git
+cd redes-blackjack
 ```
 
-### 🖧 2. Execute o **Servidor**
+### 2. Compine no Visual Studio
 
 ```bash
-cd Servidor
-dotnet run
+Compine a solução inteira usando o Visual Studio
+```
+
+### 3. Execute o **Servidor**
+
+```bash
+Execute o servidor na pasta .\redes-blackjack\blackjack-servidor\bin\Debug\net8.0\blackjack-servidor.exe
 ```
 
 > O servidor será iniciado na porta **9000/UDP**
 
-### 🎮 3. Execute o **Cliente** (em outro terminal ou máquina)
+### 4. Execute o **Cliente** 
 
 ```bash
-cd Cliente
-dotnet run
+Execute o cliente na pasta .\redes-blackjack\blackjack-cliente\bin\Debug\net8.0\blackjack-cliente.exe
 ```
 
 Você será solicitado a digitar o nome do jogador.
@@ -53,21 +57,27 @@ Repita esse passo para adicionar mais de um jogador ao jogo.
 ## 🗂️ Estrutura do Projeto
 
 ```
-📁 blackjack-redes
- ├── 📁 Cliente        # Aplicação console para os jogadores
- ├── 📁 Servidor       # Aplicação console do servidor do jogo
- └── 📁 blackjack_interface
-      ├── Carta.cs
-      ├── Baralho.cs
-      ├── Jogador.cs
-      ├── Mensagem.cs
-      ├── Comandos.cs
-      └── Naipe.cs
+📁 redes-blackjack                        # Repositório principal do projeto
+├── 📁 blackjack-cliente                 # Projeto do cliente (jogador)
+│   └── Cliente.cs                       # Aplicação console do cliente
+│
+├── 📁 blackjack-servidor                # Projeto do servidor (gerencia o jogo)
+│   └── Servidor.cs                      # Aplicação console do servidor
+│
+└── 📁 blackjack_interface               # Projeto compartilhado (entidades e enums)
+    ├── Carta.cs                         # Representa uma carta do baralho
+    ├── Baralho.cs                       # Lógica para criar e embaralhar cartas
+    ├── Jogador.cs                       # Representa um jogador e sua pontuação
+    ├── Mensagem.cs                      # Estrutura de mensagem trocada via UDP
+    ├── 📁 Enumerator                    # Subpasta contendo enums e comandos
+    │   ├── Comandos.cs                  # Enum com os comandos de comunicação
+    │   └── Naipe.cs                     # Enum com os naipes (copas, paus, etc.)
+
 ```
 
 ---
 
-## 💡 Funcionalidades
+## Funcionalidades
 
 - Entrada de múltiplos jogadores antes da rodada
 - Regras do BlackJack implementadas
@@ -79,13 +89,12 @@ Repita esse passo para adicionar mais de um jogador ao jogo.
 
 ---
 
-## 👩‍💻 Participantes
+## Participantes
 
-- Nayara [@seu-usuario](https://github.com/seu-usuario)
-- [Segundo integrante, se houver]
+- Nayara [@NayaraFJ](https://github.com/seu-usuario)
 
 ---
 
 ## 📄 Licença
 
-Este projeto é apenas para fins educacionais na disciplina de Redes de Computadores. Direitos reservados aos autores.
+Este projeto é apenas para fins educacionais na disciplina de Redes de Computadores.
