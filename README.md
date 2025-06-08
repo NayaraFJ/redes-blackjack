@@ -34,7 +34,7 @@ cd redes-blackjack
 Compine a solução inteira usando o Visual Studio
 ```
 
-### 2. Execute o **Servidor**
+### 3. Execute o **Servidor**
 
 ```bash
 Execute o servidor na pasta .\redes-blackjack\blackjack-servidor\bin\Debug\net8.0\blackjack-servidor.exe
@@ -42,7 +42,7 @@ Execute o servidor na pasta .\redes-blackjack\blackjack-servidor\bin\Debug\net8.
 
 > O servidor será iniciado na porta **9000/UDP**
 
-### 3. Execute o **Cliente** 
+### 4. Execute o **Cliente** 
 
 ```bash
 Execute o cliente na pasta .\redes-blackjack\blackjack-cliente\bin\Debug\net8.0\blackjack-cliente.exe
