@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "blackjack-cliente", "blackjack-cliente\blackjack-cliente.csproj", "{A0731FF3-FF96-40B5-A89E-2303B9567FCB}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "blackjack-servidor", "blackjack-servidor\blackjack-servidor.csproj", "{FDEF11A0-8E5E-47B7-A92D-CFE3F15FA3AA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "blackjack-interface", "blackjack-interface\blackjack-interface.csproj", "{5462C7CE-BAA3-4E2F-960A-9DA76AF78F24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blackjack-cliente-temp", "blackjack-cliente-temp\blackjack-cliente-temp.csproj", "{DEEE75A1-A4D7-4C6E-A13F-AAD4DA97AB81}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blackjack-cliente", "blackjack-cliente\blackjack-cliente.csproj", "{DEEE75A1-A4D7-4C6E-A13F-AAD4DA97AB81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A0731FF3-FF96-40B5-A89E-2303B9567FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A0731FF3-FF96-40B5-A89E-2303B9567FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A0731FF3-FF96-40B5-A89E-2303B9567FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A0731FF3-FF96-40B5-A89E-2303B9567FCB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FDEF11A0-8E5E-47B7-A92D-CFE3F15FA3AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FDEF11A0-8E5E-47B7-A92D-CFE3F15FA3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDEF11A0-8E5E-47B7-A92D-CFE3F15FA3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU

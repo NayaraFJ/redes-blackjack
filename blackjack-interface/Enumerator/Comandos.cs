@@ -6,9 +6,14 @@
         Sair,
         PedirCarta,
         Parar,
-        Resultado,
+        Ganhou,
+        Estourou,
+        Perdeu,
         Mensagem,
         Carta,
-        Iniciado,
+        JogarTurno,
+        JogarNovamente,
+        Ping,
+        Pong,
     }
 }
