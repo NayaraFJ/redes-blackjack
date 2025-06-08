@@ -65,7 +65,7 @@ Repita esse passo para adicionar mais de um jogador ao jogo.
     ├── Baralho.cs                       # Lógica para criar e embaralhar cartas
     ├── Jogador.cs                       # Representa um jogador e sua pontuação
     ├── Mensagem.cs                      # Estrutura de mensagem trocada via UDP
-    ├── 📁 blackjack_interface           # Subpasta contendo enums e comandos
+    ├── 📁 Enumerator                    # Subpasta contendo enums e comandos
     │   ├── Comandos.cs                  # Enum com os comandos de comunicação
     │   └── Naipe.cs                     # Enum com os naipes (copas, paus, etc.)
 
