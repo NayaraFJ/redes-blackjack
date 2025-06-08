@@ -24,24 +24,28 @@ O objetivo é aplicar na prática os conceitos de redes de computadores, como so
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/blackjack-redes.git
-cd blackjack-redes
+git clone https://github.com/NayaraFJ/redes-blackjack.git
+cd redes-blackjack
+```
+
+### 2. Compine no Visual Studio
+
+```bash
+Compine a solução inteira usando o Visual Studio
 ```
 
 ### 2. Execute o **Servidor**
 
 ```bash
-cd Servidor
-dotnet run
+Execute o servidor na pasta .\redes-blackjack\blackjack-servidor\bin\Debug\net8.0\blackjack-servidor.exe
 ```
 
 > O servidor será iniciado na porta **9000/UDP**
 
-### 3. Execute o **Cliente** (em outro terminal ou máquina)
+### 3. Execute o **Cliente** 
 
 ```bash
-cd Cliente
-dotnet run
+Execute o cliente na pasta .\redes-blackjack\blackjack-cliente\bin\Debug\net8.0\blackjack-cliente.exe
 ```
 
 Você será solicitado a digitar o nome do jogador.
