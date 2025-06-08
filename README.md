@@ -21,14 +21,14 @@ O objetivo é aplicar na prática os conceitos de redes de computadores, como so
 
 - [.NET SDK 6.0+](https://dotnet.microsoft.com/en-us/download)
 
-### 🖥️ 1. Clone o repositório
+### 1. Clone o repositório
 
 ```bash
 git clone https://github.com/seu-usuario/blackjack-redes.git
 cd blackjack-redes
 ```
 
-### 🖧 2. Execute o **Servidor**
+### 2. Execute o **Servidor**
 
 ```bash
 cd Servidor
@@ -37,7 +37,7 @@ dotnet run
 
 > O servidor será iniciado na porta **9000/UDP**
 
-### 🎮 3. Execute o **Cliente** (em outro terminal ou máquina)
+### 3. Execute o **Cliente** (em outro terminal ou máquina)
 
 ```bash
 cd Cliente
@@ -53,25 +53,27 @@ Repita esse passo para adicionar mais de um jogador ao jogo.
 ## 🗂️ Estrutura do Projeto
 
 ```
-📁 redes-blackjack
- ├── 📁 blackjack-cliente
-      └── Cliente.cs    # Aplicação console do cliente  do jogo
- ├── 📁 blackjack-servidor
-     └──  Servidor.cs   # Aplicação console do servidor do jogo 
- └── 📁 blackjack_interface
-      ├── 📁 blackjack_interface
-             ├── Comandos.cs  
-             └── Naipe.cs
-      ├── Carta.cs
-      ├── Baralho.cs
-      ├── Jogador.cs
-      ├── Mensagem.cs
+📁 redes-blackjack                        # Repositório principal do projeto
+├── 📁 blackjack-cliente                 # Projeto do cliente (jogador)
+│   └── Cliente.cs                       # Aplicação console do cliente
+│
+├── 📁 blackjack-servidor                # Projeto do servidor (gerencia o jogo)
+│   └── Servidor.cs                      # Aplicação console do servidor
+│
+└── 📁 blackjack_interface               # Projeto compartilhado (entidades e enums)
+    ├── Carta.cs                         # Representa uma carta do baralho
+    ├── Baralho.cs                       # Lógica para criar e embaralhar cartas
+    ├── Jogador.cs                       # Representa um jogador e sua pontuação
+    ├── Mensagem.cs                      # Estrutura de mensagem trocada via UDP
+    ├── 📁 blackjack_interface           # Subpasta contendo enums e comandos
+    │   ├── Comandos.cs                  # Enum com os comandos de comunicação
+    │   └── Naipe.cs                     # Enum com os naipes (copas, paus, etc.)
 
 ```
 
 ---
 
-## 💡 Funcionalidades
+## Funcionalidades
 
 - Entrada de múltiplos jogadores antes da rodada
 - Regras do BlackJack implementadas
@@ -83,7 +85,7 @@ Repita esse passo para adicionar mais de um jogador ao jogo.
 
 ---
 
-## 👩‍💻 Participantes
+## Participantes
 
 - Nayara [@NayaraFJ](https://github.com/seu-usuario)
 
