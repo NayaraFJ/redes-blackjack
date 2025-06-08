@@ -6,7 +6,7 @@ O objetivo é aplicar na prática os conceitos de redes de computadores, como so
 
 ---
 
-## 🧠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Linguagem: **C# (.NET 6)**
 - Comunicação: **UDP (Sockets)**
@@ -15,9 +15,9 @@ O objetivo é aplicar na prática os conceitos de redes de computadores, como so
 
 ---
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
-### ✅ Pré-requisitos
+### Pré-requisitos
 
 - [.NET SDK 6.0+](https://dotnet.microsoft.com/en-us/download)
 
@@ -53,16 +53,20 @@ Repita esse passo para adicionar mais de um jogador ao jogo.
 ## 🗂️ Estrutura do Projeto
 
 ```
-📁 blackjack-redes
- ├── 📁 Cliente        # Aplicação console para os jogadores
- ├── 📁 Servidor       # Aplicação console do servidor do jogo
+📁 redes-blackjack
+ ├── 📁 blackjack-cliente
+      └── Cliente.cs    # Aplicação console do cliente  do jogo
+ ├── 📁 blackjack-servidor
+     └──  Servidor.cs   # Aplicação console do servidor do jogo 
  └── 📁 blackjack_interface
+      ├── 📁 blackjack_interface
+             ├── Comandos.cs  
+             └── Naipe.cs
       ├── Carta.cs
       ├── Baralho.cs
       ├── Jogador.cs
       ├── Mensagem.cs
-      ├── Comandos.cs
-      └── Naipe.cs
+
 ```
 
 ---
@@ -81,11 +85,10 @@ Repita esse passo para adicionar mais de um jogador ao jogo.
 
 ## 👩‍💻 Participantes
 
-- Nayara [@seu-usuario](https://github.com/seu-usuario)
-- [Segundo integrante, se houver]
+- Nayara [@NayaraFJ](https://github.com/seu-usuario)
 
 ---
 
 ## 📄 Licença
 
-Este projeto é apenas para fins educacionais na disciplina de Redes de Computadores. Direitos reservados aos autores.
+Este projeto é apenas para fins educacionais na disciplina de Redes de Computadores.
