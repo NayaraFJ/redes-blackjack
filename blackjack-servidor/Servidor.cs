@@ -161,7 +161,7 @@ class Program
         return false;
     }
 
-    //Adicionar um jogador no meio da partida, reiniciando a rodada e distribuindo cartas
+    //Adicionar um jogador no meio da partida e distribuindo cartas para o novo jogador
     static async Task AdicionarJogadorNoMeioDaPartida(IPEndPoint cliente)
     {
         var jogador = jogadores[cliente];
