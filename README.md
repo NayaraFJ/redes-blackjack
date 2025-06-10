@@ -28,10 +28,10 @@ git clone https://github.com/NayaraFJ/redes-blackjack.git
 cd redes-blackjack
 ```
 
-### 2. Compine no Visual Studio
+### 2. Compile no Visual Studio
 
 ```bash
-Compine a solução inteira usando o Visual Studio
+Compile a solução inteira usando o Visual Studio
 ```
 
 ### 3. Execute o **Servidor**
